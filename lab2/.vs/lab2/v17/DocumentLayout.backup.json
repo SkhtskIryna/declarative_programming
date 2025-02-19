@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A7DC40D0-8394-4140-9597-94A1679D4BE0}|lab2\\lab2.csproj|c:\\users\\ira\\desktop\\\u0434\u0435\u043A\u043B\u0430\u0440\u0430\u0442. \u043F\u0440\u043E\u0433\u0440\\labs\\lab2\\lab2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A7DC40D0-8394-4140-9597-94A1679D4BE0}|lab2\\lab2.csproj|solutionrelative:lab2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7DC40D0-8394-4140-9597-94A1679D4BE0}|lab2\\lab2.csproj|C:\\Users\\IrA\\Desktop\\\u0414\u0435\u043A\u043B\u0430\u0440\u0430\u0442. \u043F\u0440\u043E\u0433\u0440\\labs\\lab2\\lab2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7DC40D0-8394-4140-9597-94A1679D4BE0}|lab2\\lab2.csproj|solutionrelative:lab2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,6 +37,10 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
@@ -49,24 +49,7 @@
               "ToolTip": "C:\\Users\\IrA\\Desktop\\\u0414\u0435\u043A\u043B\u0430\u0440\u0430\u0442. \u043F\u0440\u043E\u0433\u0440\\labs\\lab2\\lab2\\MainWindow.xaml",
               "RelativeToolTip": "lab2\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-19T17:19:33.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\IrA\\Desktop\\\u0414\u0435\u043A\u043B\u0430\u0440\u0430\u0442. \u043F\u0440\u043E\u0433\u0440\\labs\\lab2\\lab2\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "lab2\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\IrA\\Desktop\\\u0414\u0435\u043A\u043B\u0430\u0440\u0430\u0442. \u043F\u0440\u043E\u0433\u0440\\labs\\lab2\\lab2\\MainWindow.xaml.cs",
-              "RelativeToolTip": "lab2\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T17:19:31.907Z",
+              "WhenOpened": "2025-02-19T22:16:16.14Z",
               "EditorCaption": ""
             },
             {

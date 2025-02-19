@@ -6,31 +6,9 @@
         xmlns:local="clr-namespace:lab2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <WrapPanel Orientation="Vertical">
-        <WrapPanel Height="30" Width="455" Margin="170 150 170 -10">
-            <Label Content="Label" Width="50" Height="28" VerticalAlignment="Center"/>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-        </WrapPanel>
-        
-        <WrapPanel Height="30" Width="455" Margin="170 0 170 40">
-            <Label Content="Label" Width="50" Height="28" VerticalAlignment="Center"/>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-        </WrapPanel>
-
-        <Button Width="100" Height="20" VerticalAlignment="Bottom" Margin="0 0 0 160">Button</Button>
-    </WrapPanel>
+    <Canvas Background="Aqua">
+        <Label Content="Label" Margin="50"></Label>
+        <TextBox Margin="70" Width="30">Text</TextBox>
+        <Button Margin="88">Button</Button>
+    </Canvas>
 </Window>

@@ -1,0 +1,15 @@
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\bin\Debug\lab2.exe.config
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\bin\Debug\lab2.exe
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\bin\Debug\lab2.pdb
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\lab2.csproj.AssemblyReference.cache
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\MainWindow.g.cs
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\App.g.cs
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\lab2_MarkupCompile.cache
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\lab2_MarkupCompile.lref
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\MainWindow.baml
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\lab2.g.resources
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\lab2.Properties.Resources.resources
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\lab2.csproj.GenerateResource.cache
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\lab2.csproj.CoreCompileInputs.cache
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\lab2.exe
+C:\Users\IrA\Desktop\Декларат. прогр\labs\lab2\lab2\obj\Debug\lab2.pdb
