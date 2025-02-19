@@ -6,31 +6,14 @@
         xmlns:local="clr-namespace:lab2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <WrapPanel Height="30" Width="455" Margin="120 50 120 50">
-            <Label Content="Label" Width="50" Height="28" VerticalAlignment="Center"/>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-        </WrapPanel>
-        
-        <WrapPanel Height="30" Width="455" Margin="120 0 120 40">
-            <Label Content="Label" Width="50" Height="28" VerticalAlignment="Center"/>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-            <TextBox Width="50" Height="22">TextBox</TextBox>
-        </WrapPanel>
+    
+    <DockPanel LastChildFill="True">
+        <Label Width="40" Height="30" DockPanel.Dock="Top" Margin="0 100 0 -80">Label</Label>
 
-        <Button Width="100" Height="20" VerticalAlignment="Bottom" Margin="0 0 0 160">Button</Button>
-    </Grid>
+        <WrapPanel HorizontalAlignment="Center" Height="200">
+            <TextBox Width="150" Height="150" Margin="20">TextBox</TextBox>
+            <Button  Width="100" Height="40">Button</Button>
+            <TextBox Width="150" Height="150" Margin="20">TextBox</TextBox>
+        </WrapPanel>
+    </DockPanel>
 </Window>
