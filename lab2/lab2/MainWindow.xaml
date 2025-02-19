@@ -6,14 +6,31 @@
         xmlns:local="clr-namespace:lab2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
-    <DockPanel LastChildFill="True">
-        <Label Width="40" Height="30" DockPanel.Dock="Top" Margin="0 100 0 -80">Label</Label>
-
-        <WrapPanel HorizontalAlignment="Center" Height="200">
-            <TextBox Width="150" Height="150" Margin="20">TextBox</TextBox>
-            <Button  Width="100" Height="40">Button</Button>
-            <TextBox Width="150" Height="150" Margin="20">TextBox</TextBox>
+    <WrapPanel Orientation="Vertical">
+        <WrapPanel Height="30" Width="455" Margin="170 150 170 -10">
+            <Label Content="Label" Width="50" Height="28" VerticalAlignment="Center"/>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
         </WrapPanel>
-    </DockPanel>
+        
+        <WrapPanel Height="30" Width="455" Margin="170 0 170 40">
+            <Label Content="Label" Width="50" Height="28" VerticalAlignment="Center"/>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+            <TextBox Width="50" Height="22">TextBox</TextBox>
+        </WrapPanel>
+
+        <Button Width="100" Height="20" VerticalAlignment="Bottom" Margin="0 0 0 160">Button</Button>
+    </WrapPanel>
 </Window>
