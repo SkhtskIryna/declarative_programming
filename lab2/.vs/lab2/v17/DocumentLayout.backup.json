@@ -30,10 +30,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
@@ -41,20 +37,20 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\IrA\\Desktop\\\u0414\u0435\u043A\u043B\u0430\u0440\u0430\u0442. \u043F\u0440\u043E\u0433\u0440\\labs\\lab2\\lab2\\MainWindow.xaml",
               "RelativeDocumentMoniker": "lab2\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\IrA\\Desktop\\\u0414\u0435\u043A\u043B\u0430\u0440\u0430\u0442. \u043F\u0440\u043E\u0433\u0440\\labs\\lab2\\lab2\\MainWindow.xaml",
-              "RelativeToolTip": "lab2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\IrA\\Desktop\\\u0414\u0435\u043A\u043B\u0430\u0440\u0430\u0442. \u043F\u0440\u043E\u0433\u0440\\labs\\lab2\\lab2\\MainWindow.xaml*",
+              "RelativeToolTip": "lab2\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-19T22:16:16.14Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }

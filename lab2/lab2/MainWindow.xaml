@@ -5,10 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Canvas Background="Aqua">
-        <Label Content="Label" Margin="50"></Label>
-        <TextBox Margin="70" Width="30">Text</TextBox>
-        <Button Margin="88">Button</Button>
-    </Canvas>
+        Title="TextEditor" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Height="100" VerticalAlignment="Top" Orientation="Horizontal">
+            <Button Width="100" ToolTip="Open">
+                <Image Width="80" Height="80" Source="images/open-folder.png"/>
+            </Button>
+            <Button Width="100" ToolTip="Erase">
+                <Image Width="60" Height="60" Source="images/eraser.png"/>
+            </Button>
+            <Button Width="100" ToolTip="Copy">
+                <Image Width="60" Height="60" Source="images/copy.png"/>
+            </Button>
+            <Button Width="100" ToolTip="Add">
+                <Image Width="60" Height="60" Source="images/add.png"/>
+            </Button>
+        </StackPanel>
+
+        <Border Grid.Row="0" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10"></Border>
+    </Grid>
 </Window>
