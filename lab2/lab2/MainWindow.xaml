@@ -5,60 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab2"
         mc:Ignorable="d"
-        Title="TextEditor" Height="450" Width="800">
-    
-    <Window.Resources>
-        <!--Додавання ресурсу-->
-        <LinearGradientBrush x:Key="LinearPanelBrush">
-            <GradientStop Color="#FFF5F56E" Offset="0"></GradientStop>
-            <GradientStop Color="#FF6DF9E9" Offset="0.5"></GradientStop>
-            <GradientStop Color="#FFF5F56E" Offset="0.8"></GradientStop>
-        </LinearGradientBrush>
-        
-        <!--Додавання стилю-->
-        <Style TargetType="Button">
-            <Setter Property="Margin" Value="5"></Setter>
-            <Setter Property="Background" Value="Transparent"></Setter>
-            <Setter Property="BorderBrush" Value="White"></Setter>
-        </Style>
-    </Window.Resources>
-
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"></RowDefinition>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
-
-        <Border Grid.Row="0" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10"  Background="{StaticResource LinearPanelBrush}">
-            <StackPanel Grid.Row="0" Height="100" VerticalAlignment="Top" Orientation="Horizontal">
-                <Button Width="100" ToolTip="Open">
-                    <Image Width="80" Height="80" Source="images/open-folder.png"/>
-                </Button>
-                <Button Width="100" ToolTip="Erase">
-                    <Image Width="60" Height="60" Source="images/eraser.png"/>
-                </Button>
-                <Button Width="100" ToolTip="Copy">
-                    <Image Width="60" Height="60" Source="images/copy.png"/>
-                </Button>
-                <Button Width="100" ToolTip="Add">
-                    <Image Width="60" Height="60" Source="images/add.png"/>
-                </Button>
-            </StackPanel>
-        </Border>
-        
-        <Border Grid.Row="1" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10" Background="{StaticResource LinearPanelBrush}">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                </Grid.RowDefinitions>
-
-                <TextBox Grid.Row="0" Width="750" Height="220" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Visible" AcceptsReturn="True"></TextBox>
-
-                <DockPanel Grid.Row="1" Height="20" Margin="22">
-                    <Button Width="50" Height="20" VerticalAlignment="Bottom" Style="{x:Null}">OK</Button>
-                </DockPanel>
-            </Grid>
-        </Border>
-    </Grid>
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas Background="Aqua">
+        <Label Content="Label" Margin="20"></Label>
+        <TextBox Margin="40" Width="30">Text</TextBox>
+        <Button Margin="60">Button</Button>
+    </Canvas>
 </Window>
